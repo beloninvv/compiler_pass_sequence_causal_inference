@@ -1,0 +1,5 @@
+digraph CausalPassGraph {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightblue];
+  "instnamer" -> "strip" [label="ATE=0.1472", penwidth=6.0, color="0.33 1.00 0.8"];
+}

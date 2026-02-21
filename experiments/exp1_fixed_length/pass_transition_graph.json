@@ -1,0 +1,3557 @@
+{
+  "loop-deletion": {
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "blowfish_e",
+        "stringsearch1"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "tailcallelim": {
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "dijkstra",
+        "blowfish_d"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "reassociate": {
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "adpcm_c",
+        "susan_e",
+        "susan_s"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "pgp_e",
+        "blowfish_e",
+        "susan_c"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    }
+  },
+  "strip-dead-prototypes": {
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "susan_c",
+        "adpcm_c"
+      ]
+    },
+    "mergereturn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "constmerge": {
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "adpcm_d",
+        "adpcm_c"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "bitcount",
+        "crc32"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "susan_e",
+        "susan_s"
+      ]
+    }
+  },
+  "globalopt": {
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "adpcm_c",
+        "bitcount"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "adpcm_d",
+        "sha"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "susan_c",
+        "dijkstra"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "jpeg_d",
+        "rijndael_d",
+        "susan_e"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    }
+  },
+  "gvn": {
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "adpcm_d",
+        "adpcm_c",
+        "bitcount"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.2631578947368421,
+      "total_occurrences": 5,
+      "positive_count": 5,
+      "positive_benchmarks": [
+        "jpeg_c",
+        "rsynth",
+        "jpeg_d",
+        "susan_c",
+        "crc32"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "rijndael_e",
+        "susan_e",
+        "dijkstra"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "rijndael_d"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "qsort1"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "adce": {
+    "mergereturn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "jpeg_c",
+        "adpcm_c",
+        "dijkstra"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "rijndael_d",
+        "susan_e",
+        "crc32"
+      ]
+    },
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "susan_s"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    }
+  },
+  "mergereturn": {
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "jpeg_c",
+        "bitcount"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    }
+  },
+  "gvn-hoist": {
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "rijndael_e",
+        "adpcm_c",
+        "susan_e"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "adpcm_d",
+        "blowfish_e",
+        "stringsearch1"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "jpeg_c",
+        "crc32"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "susan_c"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "dse": {
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "adpcm_d",
+        "jpeg_c",
+        "qsort1"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "jpeg_d",
+        "sha"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "rsynth"
+      ]
+    },
+    "mergereturn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "memcpyopt": {
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "mergereturn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "pgp_e",
+        "rijndael_e",
+        "stringsearch1"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    }
+  },
+  "globaldce": {
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "jpeg_c",
+        "adpcm_c",
+        "dijkstra"
+      ]
+    },
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "susan_e",
+        "bitcount"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "jpeg_d",
+        "rsynth",
+        "blowfish_d"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "mergereturn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "rijndael_e"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    }
+  },
+  "correlated-propagation": {
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "stringsearch1",
+        "bitcount"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "blowfish_e",
+        "sha"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "susan_c"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "bdce": {
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "susan_s",
+        "susan_e",
+        "blowfish_d"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "jpeg_c",
+        "dijkstra"
+      ]
+    },
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "stringsearch1",
+        "susan_c"
+      ]
+    }
+  },
+  "ipsccp": {
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "adpcm_c",
+        "dijkstra"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "blowfish_e",
+        "susan_c"
+      ]
+    },
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    }
+  },
+  "sroa": {
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.21052631578947367,
+      "total_occurrences": 4,
+      "positive_count": 4,
+      "positive_benchmarks": [
+        "rijndael_e",
+        "rsynth",
+        "adpcm_c",
+        "blowfish_d"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "bitcount",
+        "dijkstra"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "blowfish_e"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "jpeg_c",
+        "susan_e"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "simplifycfg": {
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "pgp_e",
+        "rsynth",
+        "blowfish_d"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "sha",
+        "jpeg_c"
+      ]
+    },
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "function-attrs": {
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "susan_e",
+        "bitcount"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "rijndael_e"
+      ]
+    },
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "dce": {
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "sha",
+        "bitcount"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    }
+  },
+  "instsimplify": {
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "rsynth",
+        "susan_s"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    }
+  },
+  "newgvn": {
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "adpcm_d",
+        "susan_s"
+      ]
+    },
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "bitcount"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "qsort1"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "rijndael_e",
+        "stringsearch1"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "sha",
+        "susan_c"
+      ]
+    },
+    "mergereturn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    }
+  },
+  "instcombine": {
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "mergereturn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "enable-new-pm=0": {
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_c"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "blowfish_e",
+        "bitcount"
+      ]
+    },
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "susan_c",
+        "jpeg_c"
+      ]
+    },
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "jpeg_d",
+        "rijndael_d"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "qsort1"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "sha"
+      ]
+    },
+    "mergereturn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "deadargelim": {
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "rijndael_e",
+        "adpcm_c"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "rsynth",
+        "jpeg_c",
+        "crc32"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "susan_e",
+        "dijkstra"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "susan_c"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "qsort1"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    }
+  },
+  "gvn-sink": {
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "newgvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "susan_c",
+        "blowfish_d"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "memcpyopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "rijndael_e",
+        "rsynth"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "stringsearch1",
+        "sha"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "early-cse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "elim-avail-extern": {
+    "gvn": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "susan_s",
+        "susan_e",
+        "dijkstra"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "sha",
+        "susan_c"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    }
+  },
+  "sccp": {
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "correlated-propagation": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "stringsearch1"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    }
+  },
+  "mem2reg": {
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "adpcm_d"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "blowfish_e",
+        "bitcount"
+      ]
+    },
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "jpeg_d",
+        "qsort1"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "jump-threading": {
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "adpcm_d",
+        "stringsearch1"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "bdce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "reassociate": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "adce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "pgp_e"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "mergefunc": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "ipsccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "sroa": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "mergefunc": {
+    "dce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "simplifycfg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "enable-new-pm=0": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_c"
+      ]
+    },
+    "gvn-hoist": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "pgp_e",
+        "susan_c"
+      ]
+    },
+    "globaldce": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "loop-idiom": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "gvn-sink": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "early-cse": {
+    "strip-dead-prototypes": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "instsimplify": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_d"
+      ]
+    },
+    "dse": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "blowfish_e"
+      ]
+    },
+    "tailcallelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "jpeg_d"
+      ]
+    },
+    "instcombine": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_d"
+      ]
+    },
+    "loop-deletion": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rijndael_e"
+      ]
+    },
+    "mem2reg": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "rsynth"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_c"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_e"
+      ]
+    },
+    "constmerge": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "susan_s"
+      ]
+    }
+  },
+  "loop-idiom": {
+    "sccp": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "bitcount"
+      ]
+    },
+    "elim-avail-extern": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "blowfish_e",
+        "rijndael_d"
+      ]
+    },
+    "function-attrs": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "crc32"
+      ]
+    },
+    "globalopt": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.05263157894736842,
+      "total_occurrences": 1,
+      "positive_count": 1,
+      "positive_benchmarks": [
+        "dijkstra"
+      ]
+    },
+    "jump-threading": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.10526315789473684,
+      "total_occurrences": 2,
+      "positive_count": 2,
+      "positive_benchmarks": [
+        "jpeg_d",
+        "susan_c"
+      ]
+    },
+    "deadargelim": {
+      "positive_ratio": 1.0,
+      "occurence_ratio": 0.15789473684210525,
+      "total_occurrences": 3,
+      "positive_count": 3,
+      "positive_benchmarks": [
+        "rijndael_e",
+        "rsynth",
+        "susan_e"
+      ]
+    }
+  }
+}
