@@ -1,0 +1,99 @@
+%% Работа с русским языком
+% поиск в PDF
+\usepackage{cmap}
+% русские буквы в формулах
+\usepackage{mathtext}
+% кодировка
+\usepackage[T2A]{fontenc}
+% кодировка исходного текста
+\usepackage[utf8]{inputenc}
+% локализация и переносы
+\usepackage[russian]{babel}
+
+%% Пакеты для работы с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
+\usepackage{icomma}
+
+% %% Номера формул
+% % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+% \mathtoolsset{showonlyrefs=true}
+% % Нумерация формул слева
+% \usepackage{leqno}
+
+%% Шрифты
+% Шрифт "Евклид"
+\usepackage{euscript}
+% Красивый математический шрифт
+\usepackage{mathrsfs}
+
+\usepackage[14pt]{extsizes}
+
+%% Поля (геометрия страницы)
+\usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+
+%% Русские списки
+\usepackage{enumitem}
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
+\makeatother
+
+%% Работа с картинками
+\usepackage{caption}
+% центрирование подписей к картинкам
+\captionsetup{justification=centering}
+% для вставки рисунков
+\usepackage{graphicx}
+% папки с картинками
+\graphicspath{{images/}}
+% отступ рамки \fbox{} от рисунка
+\setlength\fboxsep{3pt}
+% толщина линий рамки \fbox{}
+\setlength\fboxrule{1pt}
+% обтекание рисунков и таблиц текстом
+\usepackage{wrapfig}
+
+%% Работа с таблицами
+% дополнительная работа с таблицами
+\usepackage{array,tabularx,tabulary,booktabs}
+% длинные таблицы
+\usepackage{longtable}
+% слияние строк в таблице
+\usepackage{multirow}
+
+%% Красная строка
+\setlength{\parindent}{1.25cm}
+
+%% Интервалы
+\linespread{1.5}
+\usepackage{multirow}
+
+%% TikZ
+\usepackage{tikz}
+\usetikzlibrary{graphs,graphs.standard}
+
+%% Красивые коробочки
+\usepackage{tcolorbox}
+
+%% Перенос знаков в формулах (по Львовскому)
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}
+
+%% Дополнения
+% добавляет возможность работы с командой [H], которая улучшает расположение на странице
+\usepackage{float}
+% % красивые градусы
+% \usepackage{gensymb}
+% пакет для подписей к рисункам, в частности, для работы caption*
+\usepackage{caption}
+
+% подключаем hyperref (для ссылок внутри  pdf)
+\usepackage[unicode, pdftex]{hyperref}
+
+%% Создаём свой неповторимый стиль
+\newtcolorbox{tbox}[3][]
+{
+    colframe = #2!25,
+    colback  = #2!10,
+    coltitle = #2!20!black,
+    title    = {#3},
+    #1,
+}

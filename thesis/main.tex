@@ -1,0 +1,53 @@
+\documentclass[a4paper, 12pt]{article}
+
+%% подключаем стандарт библиографии
+\bibliographystyle{gost71u}
+
+%% подключаем преамбулу, в ней содержатся подключение всех необходимых пакетов
+\input{include/preambule.tex}
+
+\begin{document}
+
+    %% Титульник
+    \input{include/title.tex}
+
+    \setcounter{page}{2}
+
+    %% Аннотация
+    \input{parts/annotation.tex}
+
+    %% Содержание
+    \tableofcontents{}
+
+    \newpage
+
+    %% Глава 1. Введение
+    \input{parts/chapter1_introduction.tex}
+
+    %% Глава 2. Обзор литературы
+    \input{parts/chapter2_literature.tex}
+
+    %% Глава 3. Теоретические основы
+    \input{parts/chapter3_theory.tex}
+
+    %% Глава 4. Предлагаемый метод
+    \input{parts/chapter4_method.tex}
+
+    %% Глава 5. Эксперимент
+    \input{parts/chapter5_experiment.tex}
+
+    %% Глава 6. Результаты
+    \input{parts/chapter6_results.tex}
+
+    %% Глава 7. Заключение
+    \input{parts/chapter7_conclusion.tex}
+
+    %% Библиография
+    \nocite{*}
+    \bibliography{references}
+
+    % %% если необходимо, подключаем раздел "Приложение"
+    % \newpage
+    % \input{parts/appendix.tex}
+
+\end{document}
