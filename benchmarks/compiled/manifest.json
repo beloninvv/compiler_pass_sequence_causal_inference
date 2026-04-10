@@ -1,0 +1,1039 @@
+{
+  "total": 261,
+  "success": 231,
+  "failed": 30,
+  "failed_programs": [
+    "cbench__consumer_mad",
+    "cbench__network_patricia",
+    "cbench__office_ghostscript",
+    "cbench__office_ispell",
+    "cbench__office_rsynth",
+    "cbench__security_pgp_d",
+    "cbench__security_pgp_e",
+    "prolangs-c__TimberWolfMC",
+    "prolangs-c__compiler",
+    "prolangs-c__loader",
+    "prolangs-c__simulator",
+    "mediabench__jpeg__jpeg-6a",
+    "olden__bh",
+    "olden__em3d",
+    "olden__perimeter",
+    "olden__treeadd",
+    "olden__tsp",
+    "freebench__analyzer",
+    "freebench__distray",
+    "freebench__fourinarow",
+    "freebench__mason",
+    "freebench__neural",
+    "freebench__pcompress2",
+    "freebench__pifft",
+    "doe_proxyapps_c__miniAMR",
+    "versabench__beamformer",
+    "mallocbench__cfrac",
+    "mallocbench__gs",
+    "mallocbench__make",
+    "asc_sequoia__IRSmk"
+  ],
+  "programs": {
+    "adpcm_c": {
+      "file": "adpcm_c.bc",
+      "size": 7248
+    },
+    "adpcm_d": {
+      "file": "adpcm_d.bc",
+      "size": 7248
+    },
+    "asc_sequoia__AMGmk": {
+      "file": "asc_sequoia__AMGmk.bc",
+      "size": 39824
+    },
+    "asc_sequoia__CrystalMk": {
+      "file": "asc_sequoia__CrystalMk.bc",
+      "size": 9536
+    },
+    "benchmarkgame__fannkuch": {
+      "file": "benchmarkgame__fannkuch.bc",
+      "size": 5024
+    },
+    "benchmarkgame__n-body": {
+      "file": "benchmarkgame__n-body.bc",
+      "size": 6208
+    },
+    "benchmarkgame__nsieve-bits": {
+      "file": "benchmarkgame__nsieve-bits.bc",
+      "size": 4848
+    },
+    "benchmarkgame__partialsums": {
+      "file": "benchmarkgame__partialsums.bc",
+      "size": 5376
+    },
+    "benchmarkgame__puzzle": {
+      "file": "benchmarkgame__puzzle.bc",
+      "size": 5264
+    },
+    "benchmarkgame__recursive": {
+      "file": "benchmarkgame__recursive.bc",
+      "size": 4624
+    },
+    "benchmarkgame__spectral-norm": {
+      "file": "benchmarkgame__spectral-norm.bc",
+      "size": 5120
+    },
+    "bitbench__drop3": {
+      "file": "bitbench__drop3.bc",
+      "size": 8560
+    },
+    "bitbench__five11": {
+      "file": "bitbench__five11.bc",
+      "size": 8208
+    },
+    "bitbench__uudecode": {
+      "file": "bitbench__uudecode.bc",
+      "size": 7536
+    },
+    "bitbench__uuencode": {
+      "file": "bitbench__uuencode.bc",
+      "size": 8720
+    },
+    "bitcount": {
+      "file": "bitcount.bc",
+      "size": 11504
+    },
+    "blowfish_d": {
+      "file": "blowfish_d.bc",
+      "size": 27168
+    },
+    "blowfish_e": {
+      "file": "blowfish_e.bc",
+      "size": 27168
+    },
+    "cbench__automotive_bitcount": {
+      "file": "cbench__automotive_bitcount.bc",
+      "size": 11760
+    },
+    "cbench__automotive_qsort1": {
+      "file": "cbench__automotive_qsort1.bc",
+      "size": 7808
+    },
+    "cbench__automotive_susan_c": {
+      "file": "cbench__automotive_susan_c.bc",
+      "size": 64912
+    },
+    "cbench__automotive_susan_e": {
+      "file": "cbench__automotive_susan_e.bc",
+      "size": 64912
+    },
+    "cbench__automotive_susan_s": {
+      "file": "cbench__automotive_susan_s.bc",
+      "size": 64912
+    },
+    "cbench__bzip2d": {
+      "file": "cbench__bzip2d.bc",
+      "size": 189504
+    },
+    "cbench__bzip2e": {
+      "file": "cbench__bzip2e.bc",
+      "size": 189504
+    },
+    "cbench__consumer_jpeg_c": {
+      "file": "cbench__consumer_jpeg_c.bc",
+      "size": 392640
+    },
+    "cbench__consumer_jpeg_d": {
+      "file": "cbench__consumer_jpeg_d.bc",
+      "size": 376064
+    },
+    "cbench__consumer_lame": {
+      "file": "cbench__consumer_lame.bc",
+      "size": 291168
+    },
+    "cbench__consumer_tiff2bw": {
+      "file": "cbench__consumer_tiff2bw.bc",
+      "size": 423280
+    },
+    "cbench__consumer_tiff2rgba": {
+      "file": "cbench__consumer_tiff2rgba.bc",
+      "size": 419392
+    },
+    "cbench__consumer_tiffdither": {
+      "file": "cbench__consumer_tiffdither.bc",
+      "size": 421200
+    },
+    "cbench__consumer_tiffmedian": {
+      "file": "cbench__consumer_tiffmedian.bc",
+      "size": 435200
+    },
+    "cbench__network_dijkstra": {
+      "file": "cbench__network_dijkstra.bc",
+      "size": 8720
+    },
+    "cbench__office_stringsearch1": {
+      "file": "cbench__office_stringsearch1.bc",
+      "size": 14752
+    },
+    "cbench__security_blowfish_d": {
+      "file": "cbench__security_blowfish_d.bc",
+      "size": 27440
+    },
+    "cbench__security_blowfish_e": {
+      "file": "cbench__security_blowfish_e.bc",
+      "size": 27440
+    },
+    "cbench__security_rijndael_d": {
+      "file": "cbench__security_rijndael_d.bc",
+      "size": 54896
+    },
+    "cbench__security_rijndael_e": {
+      "file": "cbench__security_rijndael_e.bc",
+      "size": 54896
+    },
+    "cbench__security_sha": {
+      "file": "cbench__security_sha.bc",
+      "size": 9600
+    },
+    "cbench__telecom_CRC32": {
+      "file": "cbench__telecom_CRC32.bc",
+      "size": 6816
+    },
+    "cbench__telecom_adpcm_c": {
+      "file": "cbench__telecom_adpcm_c.bc",
+      "size": 7392
+    },
+    "cbench__telecom_adpcm_d": {
+      "file": "cbench__telecom_adpcm_d.bc",
+      "size": 7392
+    },
+    "cbench__telecom_gsm": {
+      "file": "cbench__telecom_gsm.bc",
+      "size": 116912
+    },
+    "coyotebench__almabench": {
+      "file": "coyotebench__almabench.bc",
+      "size": 15056
+    },
+    "coyotebench__huffbench": {
+      "file": "coyotebench__huffbench.bc",
+      "size": 10224
+    },
+    "coyotebench__lpbench": {
+      "file": "coyotebench__lpbench.bc",
+      "size": 8672
+    },
+    "crc32": {
+      "file": "crc32.bc",
+      "size": 6656
+    },
+    "dhrystone__dry": {
+      "file": "dhrystone__dry.bc",
+      "size": 8288
+    },
+    "dhrystone__fldry": {
+      "file": "dhrystone__fldry.bc",
+      "size": 8832
+    },
+    "dijkstra": {
+      "file": "dijkstra.bc",
+      "size": 8528
+    },
+    "doe_proxyapps_c__Pathfinder": {
+      "file": "doe_proxyapps_c__Pathfinder.bc",
+      "size": 74688
+    },
+    "doe_proxyapps_c__RSBench": {
+      "file": "doe_proxyapps_c__RSBench.bc",
+      "size": 34960
+    },
+    "doe_proxyapps_c__SimpleMOC": {
+      "file": "doe_proxyapps_c__SimpleMOC.bc",
+      "size": 62208
+    },
+    "doe_proxyapps_c__XSBench": {
+      "file": "doe_proxyapps_c__XSBench.bc",
+      "size": 28896
+    },
+    "doe_proxyapps_c__miniGMG": {
+      "file": "doe_proxyapps_c__miniGMG.bc",
+      "size": 81808
+    },
+    "jpeg_c": {
+      "file": "jpeg_c.bc",
+      "size": 383952
+    },
+    "jpeg_d": {
+      "file": "jpeg_d.bc",
+      "size": 367808
+    },
+    "mallocbench__espresso": {
+      "file": "mallocbench__espresso.bc",
+      "size": 360208
+    },
+    "mccat__01-qbsort": {
+      "file": "mccat__01-qbsort.bc",
+      "size": 9456
+    },
+    "mccat__03-testtrie": {
+      "file": "mccat__03-testtrie.bc",
+      "size": 10064
+    },
+    "mccat__04-bisect": {
+      "file": "mccat__04-bisect.bc",
+      "size": 9504
+    },
+    "mccat__05-eks": {
+      "file": "mccat__05-eks.bc",
+      "size": 21808
+    },
+    "mccat__08-main": {
+      "file": "mccat__08-main.bc",
+      "size": 28768
+    },
+    "mccat__09-vor": {
+      "file": "mccat__09-vor.bc",
+      "size": 32544
+    },
+    "mccat__12-IOtest": {
+      "file": "mccat__12-IOtest.bc",
+      "size": 8800
+    },
+    "mccat__15-trie": {
+      "file": "mccat__15-trie.bc",
+      "size": 9344
+    },
+    "mccat__17-bintr": {
+      "file": "mccat__17-bintr.bc",
+      "size": 8928
+    },
+    "mcgill__chomp": {
+      "file": "mcgill__chomp.bc",
+      "size": 12528
+    },
+    "mcgill__exptree": {
+      "file": "mcgill__exptree.bc",
+      "size": 10304
+    },
+    "mcgill__misr": {
+      "file": "mcgill__misr.bc",
+      "size": 8512
+    },
+    "mcgill__queens": {
+      "file": "mcgill__queens.bc",
+      "size": 7360
+    },
+    "mediabench__adpcm__rawcaudio": {
+      "file": "mediabench__adpcm__rawcaudio.bc",
+      "size": 6656
+    },
+    "mediabench__adpcm__rawdaudio": {
+      "file": "mediabench__adpcm__rawdaudio.bc",
+      "size": 6656
+    },
+    "mediabench__g721__g721encode": {
+      "file": "mediabench__g721__g721encode.bc",
+      "size": 22208
+    },
+    "mediabench__gsm__toast": {
+      "file": "mediabench__gsm__toast.bc",
+      "size": 116208
+    },
+    "mediabench__mpeg2__mpeg2dec": {
+      "file": "mediabench__mpeg2__mpeg2dec.bc",
+      "size": 119504
+    },
+    "mibench__automotive-basicmath": {
+      "file": "mibench__automotive-basicmath.bc",
+      "size": 9648
+    },
+    "mibench__automotive-bitcount": {
+      "file": "mibench__automotive-bitcount.bc",
+      "size": 11440
+    },
+    "mibench__automotive-susan": {
+      "file": "mibench__automotive-susan.bc",
+      "size": 65184
+    },
+    "mibench__consumer-jpeg": {
+      "file": "mibench__consumer-jpeg.bc",
+      "size": 373840
+    },
+    "mibench__consumer-lame": {
+      "file": "mibench__consumer-lame.bc",
+      "size": 291232
+    },
+    "mibench__network-dijkstra": {
+      "file": "mibench__network-dijkstra.bc",
+      "size": 7696
+    },
+    "mibench__network-patricia": {
+      "file": "mibench__network-patricia.bc",
+      "size": 13024
+    },
+    "mibench__office-stringsearch": {
+      "file": "mibench__office-stringsearch.bc",
+      "size": 30640
+    },
+    "mibench__security-blowfish": {
+      "file": "mibench__security-blowfish.bc",
+      "size": 35328
+    },
+    "mibench__security-rijndael": {
+      "file": "mibench__security-rijndael.bc",
+      "size": 54112
+    },
+    "mibench__security-sha": {
+      "file": "mibench__security-sha.bc",
+      "size": 8192
+    },
+    "mibench__telecomm-CRC32": {
+      "file": "mibench__telecomm-CRC32.bc",
+      "size": 6352
+    },
+    "mibench__telecomm-FFT": {
+      "file": "mibench__telecomm-FFT.bc",
+      "size": 9856
+    },
+    "misc__ReedSolomon": {
+      "file": "misc__ReedSolomon.bc",
+      "size": 11312
+    },
+    "misc__dt": {
+      "file": "misc__dt.bc",
+      "size": 4160
+    },
+    "misc__evalloop": {
+      "file": "misc__evalloop.bc",
+      "size": 6288
+    },
+    "misc__fbench": {
+      "file": "misc__fbench.bc",
+      "size": 11440
+    },
+    "misc__ffbench": {
+      "file": "misc__ffbench.bc",
+      "size": 8560
+    },
+    "misc__flops-1": {
+      "file": "misc__flops-1.bc",
+      "size": 6352
+    },
+    "misc__flops-2": {
+      "file": "misc__flops-2.bc",
+      "size": 6320
+    },
+    "misc__flops-3": {
+      "file": "misc__flops-3.bc",
+      "size": 6384
+    },
+    "misc__flops-4": {
+      "file": "misc__flops-4.bc",
+      "size": 6512
+    },
+    "misc__flops-5": {
+      "file": "misc__flops-5.bc",
+      "size": 6608
+    },
+    "misc__flops-6": {
+      "file": "misc__flops-6.bc",
+      "size": 6624
+    },
+    "misc__flops-7": {
+      "file": "misc__flops-7.bc",
+      "size": 6304
+    },
+    "misc__flops-8": {
+      "file": "misc__flops-8.bc",
+      "size": 6624
+    },
+    "misc__flops": {
+      "file": "misc__flops.bc",
+      "size": 14208
+    },
+    "misc__fp-convert": {
+      "file": "misc__fp-convert.bc",
+      "size": 3824
+    },
+    "misc__himenobmtxpa": {
+      "file": "misc__himenobmtxpa.bc",
+      "size": 16480
+    },
+    "misc__lowercase": {
+      "file": "misc__lowercase.bc",
+      "size": 5472
+    },
+    "misc__mandel-2": {
+      "file": "misc__mandel-2.bc",
+      "size": 4304
+    },
+    "misc__mandel": {
+      "file": "misc__mandel.bc",
+      "size": 4560
+    },
+    "misc__matmul_f64_4x4": {
+      "file": "misc__matmul_f64_4x4.bc",
+      "size": 7744
+    },
+    "misc__oourafft": {
+      "file": "misc__oourafft.bc",
+      "size": 24464
+    },
+    "misc__perlin": {
+      "file": "misc__perlin.bc",
+      "size": 5920
+    },
+    "misc__pi": {
+      "file": "misc__pi.bc",
+      "size": 4064
+    },
+    "misc__revertBits": {
+      "file": "misc__revertBits.bc",
+      "size": 4576
+    },
+    "misc__richards_benchmark": {
+      "file": "misc__richards_benchmark.bc",
+      "size": 9552
+    },
+    "misc__salsa20": {
+      "file": "misc__salsa20.bc",
+      "size": 6160
+    },
+    "misc__whetstone": {
+      "file": "misc__whetstone.bc",
+      "size": 8960
+    },
+    "npb-serial__dc": {
+      "file": "npb-serial__dc.bc",
+      "size": 87232
+    },
+    "npb-serial__is": {
+      "file": "npb-serial__is.bc",
+      "size": 11264
+    },
+    "olden__bisort": {
+      "file": "olden__bisort.bc",
+      "size": 7888
+    },
+    "olden__health": {
+      "file": "olden__health.bc",
+      "size": 11408
+    },
+    "olden__mst": {
+      "file": "olden__mst.bc",
+      "size": 11504
+    },
+    "olden__power": {
+      "file": "olden__power.bc",
+      "size": 15920
+    },
+    "olden__voronoi": {
+      "file": "olden__voronoi.bc",
+      "size": 28416
+    },
+    "pgp_e": {
+      "file": "pgp_e.bc",
+      "size": 361328
+    },
+    "polybench__datamining__correlation": {
+      "file": "polybench__datamining__correlation.bc",
+      "size": 10944
+    },
+    "polybench__datamining__covariance": {
+      "file": "polybench__datamining__covariance.bc",
+      "size": 10176
+    },
+    "polybench__linear_algebra_blas__gemm": {
+      "file": "polybench__linear_algebra_blas__gemm.bc",
+      "size": 10384
+    },
+    "polybench__linear_algebra_blas__gemver": {
+      "file": "polybench__linear_algebra_blas__gemver.bc",
+      "size": 11264
+    },
+    "polybench__linear_algebra_blas__gesummv": {
+      "file": "polybench__linear_algebra_blas__gesummv.bc",
+      "size": 10080
+    },
+    "polybench__linear_algebra_blas__symm": {
+      "file": "polybench__linear_algebra_blas__symm.bc",
+      "size": 10512
+    },
+    "polybench__linear_algebra_blas__syr2k": {
+      "file": "polybench__linear_algebra_blas__syr2k.bc",
+      "size": 10288
+    },
+    "polybench__linear_algebra_blas__syrk": {
+      "file": "polybench__linear_algebra_blas__syrk.bc",
+      "size": 9952
+    },
+    "polybench__linear_algebra_blas__trmm": {
+      "file": "polybench__linear_algebra_blas__trmm.bc",
+      "size": 9856
+    },
+    "polybench__linear_algebra_kernels__2mm": {
+      "file": "polybench__linear_algebra_kernels__2mm.bc",
+      "size": 11264
+    },
+    "polybench__linear_algebra_kernels__3mm": {
+      "file": "polybench__linear_algebra_kernels__3mm.bc",
+      "size": 11824
+    },
+    "polybench__linear_algebra_kernels__atax": {
+      "file": "polybench__linear_algebra_kernels__atax.bc",
+      "size": 9856
+    },
+    "polybench__linear_algebra_kernels__bicg": {
+      "file": "polybench__linear_algebra_kernels__bicg.bc",
+      "size": 10224
+    },
+    "polybench__linear_algebra_kernels__doitgen": {
+      "file": "polybench__linear_algebra_kernels__doitgen.bc",
+      "size": 10368
+    },
+    "polybench__linear_algebra_kernels__mvt": {
+      "file": "polybench__linear_algebra_kernels__mvt.bc",
+      "size": 10224
+    },
+    "polybench__linear_algebra_solvers__cholesky": {
+      "file": "polybench__linear_algebra_solvers__cholesky.bc",
+      "size": 10496
+    },
+    "polybench__linear_algebra_solvers__durbin": {
+      "file": "polybench__linear_algebra_solvers__durbin.bc",
+      "size": 9424
+    },
+    "polybench__linear_algebra_solvers__gramschmidt": {
+      "file": "polybench__linear_algebra_solvers__gramschmidt.bc",
+      "size": 10976
+    },
+    "polybench__linear_algebra_solvers__lu": {
+      "file": "polybench__linear_algebra_solvers__lu.bc",
+      "size": 10400
+    },
+    "polybench__linear_algebra_solvers__ludcmp": {
+      "file": "polybench__linear_algebra_solvers__ludcmp.bc",
+      "size": 11504
+    },
+    "polybench__linear_algebra_solvers__trisolv": {
+      "file": "polybench__linear_algebra_solvers__trisolv.bc",
+      "size": 9520
+    },
+    "polybench__medley__deriche": {
+      "file": "polybench__medley__deriche.bc",
+      "size": 12128
+    },
+    "polybench__medley__floyd-warshall": {
+      "file": "polybench__medley__floyd-warshall.bc",
+      "size": 9344
+    },
+    "polybench__medley__nussinov": {
+      "file": "polybench__medley__nussinov.bc",
+      "size": 10496
+    },
+    "polybench__stencils__adi": {
+      "file": "polybench__stencils__adi.bc",
+      "size": 11552
+    },
+    "polybench__stencils__fdtd-2d": {
+      "file": "polybench__stencils__fdtd-2d.bc",
+      "size": 11584
+    },
+    "polybench__stencils__heat-3d": {
+      "file": "polybench__stencils__heat-3d.bc",
+      "size": 11312
+    },
+    "polybench__stencils__jacobi-1d": {
+      "file": "polybench__stencils__jacobi-1d.bc",
+      "size": 9216
+    },
+    "polybench__stencils__jacobi-2d": {
+      "file": "polybench__stencils__jacobi-2d.bc",
+      "size": 10080
+    },
+    "polybench__stencils__seidel-2d": {
+      "file": "polybench__stencils__seidel-2d.bc",
+      "size": 9664
+    },
+    "prolangs-c__agrep": {
+      "file": "prolangs-c__agrep.bc",
+      "size": 102144
+    },
+    "prolangs-c__allroots": {
+      "file": "prolangs-c__allroots.bc",
+      "size": 8512
+    },
+    "prolangs-c__archie-client": {
+      "file": "prolangs-c__archie-client.bc",
+      "size": 69264
+    },
+    "prolangs-c__assembler": {
+      "file": "prolangs-c__assembler.bc",
+      "size": 58048
+    },
+    "prolangs-c__bison": {
+      "file": "prolangs-c__bison.bc",
+      "size": 122192
+    },
+    "prolangs-c__cdecl": {
+      "file": "prolangs-c__cdecl.bc",
+      "size": 60192
+    },
+    "prolangs-c__fixoutput": {
+      "file": "prolangs-c__fixoutput.bc",
+      "size": 12576
+    },
+    "prolangs-c__football": {
+      "file": "prolangs-c__football.bc",
+      "size": 103456
+    },
+    "prolangs-c__gnugo": {
+      "file": "prolangs-c__gnugo.bc",
+      "size": 43824
+    },
+    "prolangs-c__plot2fig": {
+      "file": "prolangs-c__plot2fig.bc",
+      "size": 21504
+    },
+    "prolangs-c__unix-smail": {
+      "file": "prolangs-c__unix-smail.bc",
+      "size": 53952
+    },
+    "prolangs-c__unix-tbl": {
+      "file": "prolangs-c__unix-tbl.bc",
+      "size": 83152
+    },
+    "ptrdist__anagram": {
+      "file": "ptrdist__anagram.bc",
+      "size": 15088
+    },
+    "ptrdist__bc": {
+      "file": "ptrdist__bc.bc",
+      "size": 104080
+    },
+    "ptrdist__ft": {
+      "file": "ptrdist__ft.bc",
+      "size": 22048
+    },
+    "ptrdist__ks": {
+      "file": "ptrdist__ks.bc",
+      "size": 19008
+    },
+    "ptrdist__yacr2": {
+      "file": "ptrdist__yacr2.bc",
+      "size": 58784
+    },
+    "qsort1": {
+      "file": "qsort1.bc",
+      "size": 7600
+    },
+    "rijndael_d": {
+      "file": "rijndael_d.bc",
+      "size": 54608
+    },
+    "rijndael_e": {
+      "file": "rijndael_e.bc",
+      "size": 54608
+    },
+    "rsynth": {
+      "file": "rsynth.bc",
+      "size": 164384
+    },
+    "sha": {
+      "file": "sha.bc",
+      "size": 9328
+    },
+    "shootout__ackermann": {
+      "file": "shootout__ackermann.bc",
+      "size": 3392
+    },
+    "shootout__ary3": {
+      "file": "shootout__ary3.bc",
+      "size": 4064
+    },
+    "shootout__fib2": {
+      "file": "shootout__fib2.bc",
+      "size": 3312
+    },
+    "shootout__hash": {
+      "file": "shootout__hash.bc",
+      "size": 8144
+    },
+    "shootout__heapsort": {
+      "file": "shootout__heapsort.bc",
+      "size": 4768
+    },
+    "shootout__hello": {
+      "file": "shootout__hello.bc",
+      "size": 2976
+    },
+    "shootout__lists": {
+      "file": "shootout__lists.bc",
+      "size": 10432
+    },
+    "shootout__matrix": {
+      "file": "shootout__matrix.bc",
+      "size": 5408
+    },
+    "shootout__methcall": {
+      "file": "shootout__methcall.bc",
+      "size": 5408
+    },
+    "shootout__nestedloop": {
+      "file": "shootout__nestedloop.bc",
+      "size": 3568
+    },
+    "shootout__objinst": {
+      "file": "shootout__objinst.bc",
+      "size": 5664
+    },
+    "shootout__random": {
+      "file": "shootout__random.bc",
+      "size": 3504
+    },
+    "shootout__sieve": {
+      "file": "shootout__sieve.bc",
+      "size": 3568
+    },
+    "shootout__strcat": {
+      "file": "shootout__strcat.bc",
+      "size": 6448
+    },
+    "stanford__Bubblesort": {
+      "file": "stanford__Bubblesort.bc",
+      "size": 5792
+    },
+    "stanford__FloatMM": {
+      "file": "stanford__FloatMM.bc",
+      "size": 6032
+    },
+    "stanford__IntMM": {
+      "file": "stanford__IntMM.bc",
+      "size": 5840
+    },
+    "stanford__Oscar": {
+      "file": "stanford__Oscar.bc",
+      "size": 9008
+    },
+    "stanford__Puzzle": {
+      "file": "stanford__Puzzle.bc",
+      "size": 10768
+    },
+    "stanford__Queens": {
+      "file": "stanford__Queens.bc",
+      "size": 6208
+    },
+    "stanford__Quicksort": {
+      "file": "stanford__Quicksort.bc",
+      "size": 6112
+    },
+    "stanford__RealMM": {
+      "file": "stanford__RealMM.bc",
+      "size": 6016
+    },
+    "stanford__Towers": {
+      "file": "stanford__Towers.bc",
+      "size": 7184
+    },
+    "stanford__Treesort": {
+      "file": "stanford__Treesort.bc",
+      "size": 7120
+    },
+    "stringsearch1": {
+      "file": "stringsearch1.bc",
+      "size": 14288
+    },
+    "susan_c": {
+      "file": "susan_c.bc",
+      "size": 64144
+    },
+    "susan_e": {
+      "file": "susan_e.bc",
+      "size": 64144
+    },
+    "susan_s": {
+      "file": "susan_s.bc",
+      "size": 64144
+    },
+    "trimaran__enc-3des": {
+      "file": "trimaran__enc-3des.bc",
+      "size": 31472
+    },
+    "trimaran__enc-md5": {
+      "file": "trimaran__enc-md5.bc",
+      "size": 13984
+    },
+    "trimaran__enc-pc1": {
+      "file": "trimaran__enc-pc1.bc",
+      "size": 7440
+    },
+    "trimaran__enc-rc4": {
+      "file": "trimaran__enc-rc4.bc",
+      "size": 6144
+    },
+    "trimaran__netbench-crc": {
+      "file": "trimaran__netbench-crc.bc",
+      "size": 33904
+    },
+    "trimaran__netbench-url": {
+      "file": "trimaran__netbench-url.bc",
+      "size": 41136
+    },
+    "tsvc__ControlFlow-dbl": {
+      "file": "tsvc__ControlFlow-dbl.bc",
+      "size": 46160
+    },
+    "tsvc__ControlFlow-flt": {
+      "file": "tsvc__ControlFlow-flt.bc",
+      "size": 46224
+    },
+    "tsvc__ControlLoops-dbl": {
+      "file": "tsvc__ControlLoops-dbl.bc",
+      "size": 38928
+    },
+    "tsvc__ControlLoops-flt": {
+      "file": "tsvc__ControlLoops-flt.bc",
+      "size": 38976
+    },
+    "tsvc__CrossingThresholds-dbl": {
+      "file": "tsvc__CrossingThresholds-dbl.bc",
+      "size": 36336
+    },
+    "tsvc__CrossingThresholds-flt": {
+      "file": "tsvc__CrossingThresholds-flt.bc",
+      "size": 36352
+    },
+    "tsvc__Equivalencing-dbl": {
+      "file": "tsvc__Equivalencing-dbl.bc",
+      "size": 34768
+    },
+    "tsvc__Equivalencing-flt": {
+      "file": "tsvc__Equivalencing-flt.bc",
+      "size": 34800
+    },
+    "tsvc__Expansion-dbl": {
+      "file": "tsvc__Expansion-dbl.bc",
+      "size": 38768
+    },
+    "tsvc__Expansion-flt": {
+      "file": "tsvc__Expansion-flt.bc",
+      "size": 38800
+    },
+    "tsvc__GlobalDataFlow-dbl": {
+      "file": "tsvc__GlobalDataFlow-dbl.bc",
+      "size": 37920
+    },
+    "tsvc__GlobalDataFlow-flt": {
+      "file": "tsvc__GlobalDataFlow-flt.bc",
+      "size": 37968
+    },
+    "tsvc__IndirectAddressing-dbl": {
+      "file": "tsvc__IndirectAddressing-dbl.bc",
+      "size": 35600
+    },
+    "tsvc__IndirectAddressing-flt": {
+      "file": "tsvc__IndirectAddressing-flt.bc",
+      "size": 35648
+    },
+    "tsvc__InductionVariable-dbl": {
+      "file": "tsvc__InductionVariable-dbl.bc",
+      "size": 37088
+    },
+    "tsvc__InductionVariable-flt": {
+      "file": "tsvc__InductionVariable-flt.bc",
+      "size": 37120
+    },
+    "tsvc__LinearDependence-dbl": {
+      "file": "tsvc__LinearDependence-dbl.bc",
+      "size": 39712
+    },
+    "tsvc__LinearDependence-flt": {
+      "file": "tsvc__LinearDependence-flt.bc",
+      "size": 39744
+    },
+    "tsvc__LoopRerolling-dbl": {
+      "file": "tsvc__LoopRerolling-dbl.bc",
+      "size": 34480
+    },
+    "tsvc__LoopRerolling-flt": {
+      "file": "tsvc__LoopRerolling-flt.bc",
+      "size": 34528
+    },
+    "tsvc__LoopRestructuring-dbl": {
+      "file": "tsvc__LoopRestructuring-dbl.bc",
+      "size": 37344
+    },
+    "tsvc__LoopRestructuring-flt": {
+      "file": "tsvc__LoopRestructuring-flt.bc",
+      "size": 37392
+    },
+    "tsvc__NodeSplitting-dbl": {
+      "file": "tsvc__NodeSplitting-dbl.bc",
+      "size": 35280
+    },
+    "tsvc__NodeSplitting-flt": {
+      "file": "tsvc__NodeSplitting-flt.bc",
+      "size": 35328
+    },
+    "tsvc__Packing-dbl": {
+      "file": "tsvc__Packing-dbl.bc",
+      "size": 33168
+    },
+    "tsvc__Packing-flt": {
+      "file": "tsvc__Packing-flt.bc",
+      "size": 33216
+    },
+    "tsvc__Recurrences-dbl": {
+      "file": "tsvc__Recurrences-dbl.bc",
+      "size": 33264
+    },
+    "tsvc__Recurrences-flt": {
+      "file": "tsvc__Recurrences-flt.bc",
+      "size": 33312
+    },
+    "tsvc__Reductions-dbl": {
+      "file": "tsvc__Reductions-dbl.bc",
+      "size": 41280
+    },
+    "tsvc__Reductions-flt": {
+      "file": "tsvc__Reductions-flt.bc",
+      "size": 41296
+    },
+    "tsvc__Searching-dbl": {
+      "file": "tsvc__Searching-dbl.bc",
+      "size": 32736
+    },
+    "tsvc__Searching-flt": {
+      "file": "tsvc__Searching-flt.bc",
+      "size": 32784
+    },
+    "tsvc__StatementReordering-dbl": {
+      "file": "tsvc__StatementReordering-dbl.bc",
+      "size": 33296
+    },
+    "tsvc__StatementReordering-flt": {
+      "file": "tsvc__StatementReordering-flt.bc",
+      "size": 33344
+    },
+    "tsvc__Symbolics-dbl": {
+      "file": "tsvc__Symbolics-dbl.bc",
+      "size": 34800
+    },
+    "tsvc__Symbolics-flt": {
+      "file": "tsvc__Symbolics-flt.bc",
+      "size": 34848
+    },
+    "versabench__8b10b": {
+      "file": "versabench__8b10b.bc",
+      "size": 6352
+    },
+    "versabench__bmm": {
+      "file": "versabench__bmm.bc",
+      "size": 6128
+    },
+    "versabench__dbms": {
+      "file": "versabench__dbms.bc",
+      "size": 69840
+    },
+    "versabench__ecbdes": {
+      "file": "versabench__ecbdes.bc",
+      "size": 23040
+    }
+  }
+}
