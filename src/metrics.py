@@ -3,8 +3,8 @@
 Подсчёт метрик для LLVM IR.
 
 Основная метрика — число IR-инструкций через llvm-dis → парсинг .ll.
-Функция научника: считаем все значимые строки (инструкции + глобалы),
-пропускаем пустые строки, комментарии, метки, define/declare, метаданные.
+Считаем только инструкции внутри тел функций (строки с отступом),
+исключая метки (начало basic block).
 """
 
 import os
@@ -15,11 +15,11 @@ import tempfile
 def count_ir_instructions(bc_file_path: str,
                           llvm_bin_path: str = "/opt/homebrew/opt/llvm@16/bin") -> int:
     """
-    Подсчитывает количество инструкций в LLVM IR файле.
+    Подсчитывает количество IR-инструкций в .bc файле.
 
-    Алгоритм: llvm-dis → парсинг .ll → подсчёт всех значимых строк.
-    Пропускаются: пустые строки, комментарии (;), метки (:),
-    define/declare, метаданные (!, attributes, target).
+    Алгорит��: llvm-dis → па��синг .ll → подсчёт строк с отступом внутри
+    тел функций. В текстовом представлении LLVM IR инструкции всегда
+    имеют отступ, а метки (entry points basic blocks) — нет.
 
     Args:
         bc_file_path: Путь к .bc файлу
@@ -28,6 +28,7 @@ def count_ir_instructions(bc_file_path: str,
     Returns:
         Количество инструкций, или -1 при ошибке
     """
+    ll_file_path = None
     try:
         with tempfile.NamedTemporaryFile(suffix='.ll', delete=False) as temp_ll:
             ll_file_path = temp_ll.name
@@ -39,28 +40,37 @@ def count_ir_instructions(bc_file_path: str,
             print(f"Ошибка llvm-dis для {bc_file_path}: {result.stderr}")
             return -1
 
-        with open(ll_file_path, 'r') as f:
-            content = f.read()
-
-        os.unlink(ll_file_path)
-
         instruction_count = 0
-        for line in content.split('\n'):
-            line = line.strip()
-            if not line or line.startswith(';'):
-                continue
-            if line.endswith(':'):
-                continue
-            if line.startswith('define ') or line.startswith('declare '):
-                continue
-            if line.startswith('!') or line.startswith('attributes ') or line.startswith('target '):
-                continue
-            instruction_count += 1
+        in_function = False
+        in_multiline = False  # продолжение switch [ ... ]
+
+        with open(ll_file_path, 'r') as f:
+            for line in f:
+                stripped = line.strip()
+                if stripped.startswith('define '):
+                    in_function = True
+                    continue
+                if stripped == '}':
+                    in_function = False
+                    continue
+                if not in_function:
+                    continue
+                if in_multiline:
+                    if stripped == ']':
+                        in_multiline = False
+                    continue
+                # Внутри функции: инструкции имеют отступ, метки — нет
+                if line[0] in (' ', '\t') and stripped and not stripped.startswith(';'):
+                    instruction_count += 1
+                    # switch с [ в конце — начало многострочной конструкции
+                    if stripped.endswith('['):
+                        in_multiline = True
 
         return instruction_count
 
     except Exception as e:
         print(f"Ошибка при подсчёте инструкций для {bc_file_path}: {e}")
-        if os.path.exists(ll_file_path):
-            os.unlink(ll_file_path)
         return -1
+    finally:
+        if ll_file_path and os.path.exists(ll_file_path):
+            os.unlink(ll_file_path)

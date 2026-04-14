@@ -18,9 +18,11 @@ build/
 *~
 .DS_Store
 
-# Large data files (можно убрать позже, если нужно загрузить)
+# Large data files
+experiments/results/
 experiments/*/raw_results*.json
 *.bc
+*.parquet
 
 # Temporary files
 *.tmp
