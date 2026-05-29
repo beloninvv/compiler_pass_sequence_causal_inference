@@ -1,0 +1,63 @@
+\appendix
+
+\section*{Приложение А. Полный список оптимизирующих проходов}
+\addcontentsline{toc}{section}{Приложение А. Полный список оптимизирующих проходов}
+
+В работе используется набор из 89~оптимизирующих проходов LLVM~16, перемешиваемых в случайные последовательности. Все проходы проверены на работоспособность в legacy pass manager как по отдельности, так и в составе полного набора. Источники формирования набора:
+
+\begin{itemize}
+    \item проходы пайплайна \texttt{-Oz} в LLVM~16 (33~прохода);
+    \item дополнительные проходы из стандартного арсенала LLVM, охватывающие семантически значимые категории (14~проходов);
+    \item базовые проходы канонизации SSA и циклов (4~прохода);
+    \item проходы инлайнинга, векторизации и скалярных оптимизаций (23~прохода);
+    \item специализированные проходы преобразования циклов и вспомогательные проходы (15~проходов).
+\end{itemize}
+
+\subsection*{Проходы пайплайна \texttt{-Oz} (33)}
+
+\begin{flushleft}
+\texttt{bdce}, \texttt{ipsccp}, \texttt{correlated-propagation}, \texttt{mem2reg}, \texttt{sroa}, \texttt{instsimplify}, \texttt{constmerge}, \texttt{function-attrs}, \texttt{deadargelim}, \texttt{globaldce}, \texttt{elim-avail-extern}, \texttt{mergefunc}, \texttt{instcombine}, \texttt{simplifycfg}, \texttt{tailcallelim}, \texttt{reassociate}, \texttt{memcpyopt}, \texttt{sccp}, \texttt{dce}, \texttt{adce}, \texttt{dse}, \texttt{jump-threading}, \texttt{loop-idiom}, \texttt{loop-deletion}, \texttt{gvn}, \texttt{gvn-hoist}, \texttt{gvn-sink}, \texttt{newgvn}, \texttt{early-cse}, \texttt{mergereturn}, \texttt{globalopt}, \texttt{strip-dead-prototypes}, \texttt{indvars}.
+\end{flushleft}
+
+\subsection*{Дополнительные проходы из стандартного арсенала LLVM (14)}
+
+Эти проходы добавлены к набору для покрытия семантически значимых категорий, не полностью представленных проходами пайплайна \texttt{-Oz}.
+
+\paragraph{Анализ атрибутов функций (4):}
+\begin{flushleft}
+\texttt{attributor}, \texttt{inferattrs}, \texttt{rpo-\allowbreak function-\allowbreak attrs}, \texttt{called-\allowbreak value-\allowbreak propagation}.
+\end{flushleft}
+
+\paragraph{Цикловые преобразования (3):}
+\begin{flushleft}
+\texttt{loop-\allowbreak reduce}, \texttt{loop-\allowbreak unroll}, \texttt{loop-\allowbreak rotate}.
+\end{flushleft}
+
+\paragraph{Скалярные оптимизации (4):}
+\begin{flushleft}
+\texttt{mergeicmps}, \texttt{separate-\allowbreak const-\allowbreak offset-\allowbreak from-\allowbreak gep}, \texttt{libcalls-\allowbreak shrinkwrap}, \texttt{flattencfg}.
+\end{flushleft}
+
+\paragraph{Аннотации и подсказки (3):}
+\begin{flushleft}
+\texttt{partial-\allowbreak inliner}, \texttt{lower-\allowbreak expect}, \texttt{alignment-\allowbreak from-\allowbreak assumptions}.
+\end{flushleft}
+
+\subsection*{Базовые проходы канонизации (4)}
+
+\begin{flushleft}
+\texttt{licm}, \texttt{loop-simplify}, \texttt{div-rem-pairs}, \texttt{float2int}.
+\end{flushleft}
+
+\subsection*{Инлайнинг, векторизация, скалярные оптимизации (23)}
+
+\begin{flushleft}
+\texttt{inline}, \texttt{sink}, \texttt{loop-vectorize}, \texttt{slp-vectorizer}, \texttt{callsite-splitting}, \texttt{dfa-jump-threading}, \texttt{consthoist}, \texttt{mldst-motion}, \texttt{slsr}, \texttt{loop-interchange}, \texttt{loop-fusion}, \texttt{loop-distribute}, \texttt{loop-load-elim}, \texttt{loop-sink}, \texttt{loop-unroll-and-jam}, \texttt{hotcoldsplit}, \texttt{irce}, \texttt{nary-reassociate}, \texttt{scalarizer}, \texttt{vector-combine}, \texttt{always-inline}, \texttt{globalsplit}, \texttt{lowerswitch}.
+\end{flushleft}
+
+\subsection*{Преобразования циклов и вспомогательные (15)}
+
+\begin{flushleft}
+\texttt{early-cse-memssa}, \texttt{simple-loop-unswitch}, \texttt{loop-versioning}, \texttt{loop-flatten}, \texttt{loop-reroll}, \texttt{loop-instsimplify}, \texttt{loop-simplifycfg}, \texttt{loop-predication}, \texttt{speculative-execution}, \texttt{partially-inline-libcalls}, \texttt{load-store-vectorizer}, \texttt{iroutliner}, \texttt{global-merge}, \texttt{break-crit-edges}, \texttt{unreachableblockelim}.
+\end{flushleft}
+
