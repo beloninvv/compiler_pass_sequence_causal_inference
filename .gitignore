@@ -35,6 +35,8 @@ experiments/*/raw_results*.json
 *.blg
 *.out
 *.toc
+*.nav
+*.snm
 *.synctex.gz
 *.fls
 *.fdb_latexmk
@@ -45,3 +47,9 @@ benchmarks/source/
 
 # Archive
 _archive/
+
+# Документы, не хранимые в репозитории (остаются только локально)
+docs/presentation/
+docs/papers/
+docs/conference/
+docs/RESULTS_SUMMARY.md
