@@ -8,10 +8,11 @@
 
 \begin{document}
 
-    %% Титульник
-    % \input{include/title.tex}
+    %% Титульник (официальный PDF из системы МФТИ) — это страница 1, номер не печатается
+    \includepdf[pages=1]{include/titlepage.pdf}
 
-    \setcounter{page}{1}
+    %% следующая страница нумеруется как 2 (без пропусков и повторений)
+    \setcounter{page}{2}
 
     %% Аннотация
     \input{parts/annotation.tex}
